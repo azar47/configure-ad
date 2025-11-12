@@ -1,56 +1,34 @@
-<p align="center">
-<img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
-</p>
+# On-Premises Active Directory Deployment in Azure
 
-<h1>On-premises Active Directory Deployed in the Cloud (Azure)</h1>
-This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
+## Project Summary
+This project demonstrates the deployment and configuration of an **on-premises Active Directory (AD)** environment within **Microsoft Azure Virtual Machines**.  
+The project shows how to set up a Domain Controller (DC), join a client VM to the domain, manage users and Organizational Units (OUs), and configure administrative and non-administrative accounts.
 
+**Environments and Technologies Used:**
+- **Environments:** Microsoft Azure (Virtual Machines/Compute), Remote Desktop  
+- **Operating Systems:** Windows Server 2022, Windows 10 (21H2)  
+- **Technologies/Applications:** Active Directory Domain Services, PowerShell  
 
-<h2>Video Demonstration</h2>
+The purpose of this project is to illustrate practical AD administration skills in a cloud-hosted environment.
 
-- ### [YouTube: How to Deploy on-premises Active Directory within Azure Compute](https://www.youtube.com)
+## Media
+*(Add screenshots demonstrating each step of the AD deployment)*
 
-<h2>Environments and Technologies Used</h2>
+- **Screenshot 1:** DC-1 VM dashboard in Azure showing the Windows Server 2022 instance.  
+- **Screenshot 2:** Active Directory Users and Computers (ADUC) showing Organizational Units (_EMPLOYEES, _ADMINS, _CLIENTS).  
+- **Screenshot 3:** Domain Admin account (jane_admin) created and added to Domain Admins group.  
+- **Screenshot 4:** Client-1 VM joined to the domain, visible in ADUC.  
+- **Screenshot 5:** PowerShell script creating multiple user accounts and results in ADUC.  
 
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
-- Active Directory Domain Services
-- PowerShell
+*(Optional: more screenshots showing Remote Desktop setup, account lockout testing, and enabling/disabling accounts.)*
 
-<h2>Operating Systems Used </h2>
+## Demonstration
+1. Deployed two Azure VMs: **DC-1** (Domain Controller) and **Client-1** (Windows 10 client).  
+2. Installed Active Directory Domain Services on DC-1 and created a new forest (`mydomain.com`).  
+3. Created OUs and administrative accounts in ADUC, including `jane_admin` as a Domain Admin.  
+4. Joined Client-1 to the domain and verified the computer in ADUC.  
+5. Configured Remote Desktop access for non-administrative users.  
+6. Created multiple additional users via PowerShell, observed accounts in the proper OUs, and tested logins on Client-1.  
+7. Tested account lockout policies and enabling/disabling user accounts, observing expected behavior on both DC-1 and Client-1.  
 
-- Windows Server 2022
-- Windows 10 (21H2)
-
-<h2>High-Level Deployment and Configuration Steps</h2>
-
-- Step 1
-- Step 2
-- Step 3
-- Step 4
-
-<h2>Deployment and Configuration Steps</h2>
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+This project demonstrates practical Active Directory administration skills, including VM setup, domain management, user management, and basic security operations.
