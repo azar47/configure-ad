@@ -12,15 +12,11 @@ The project shows how to set up a Domain Controller (DC), join a client VM to th
 The purpose of this project is to illustrate practical AD administration skills in a cloud-hosted environment.
 
 ## Media
-*(Add screenshots demonstrating each step of the AD deployment)*
-<img src="https://i.imgur.com/dP825Zj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-- **Screenshot 1:** DC-1 VM dashboard in Azure showing the Windows Server 2022 instance.
 
 <img src="<img width="1851" height="834" alt="dP825Zj" src="https://github.com/user-attachments/assets/28d6641d-b82d-4809-9760-4505f5b1e1b1" />
-" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-- **screenshot 1 test desktop download
+- **Screenshot 1:** DC-1 VM dashboard in Azure showing the Windows Server 2022 instance.
 
-- <img src="https://i.imgur.com/ef9VyVD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+- <img src="<img width="907" height="527" alt="image2" src="https://github.com/user-attachments/assets/6f51bc53-2032-4355-a600-8fc0875a42c5" />
 - **Screenshot 2:** Active Directory Users and Computers (ADUC) showing Organizational Units (_EMPLOYEES, _ADMINS, _CLIENTS).
 
 -<img src="https://i.imgur.com/SrcGUxB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
