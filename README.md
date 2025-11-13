@@ -19,14 +19,14 @@ The purpose of this project is to illustrate practical AD administration skills 
 - <img src="<img width="907" height="527" alt="image2" src="https://github.com/user-attachments/assets/6f51bc53-2032-4355-a600-8fc0875a42c5" />
 - **Screenshot 2:** Active Directory Users and Computers (ADUC) showing Organizational Units (_EMPLOYEES, _ADMINS, _CLIENTS).
 
--<img src="https://i.imgur.com/SrcGUxB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+-<img width="962" height="577" alt="screenshot3" src="https://github.com/user-attachments/assets/926979de-30b5-42cf-b08c-a8f5a5065514" />
 - **Screenshot 3:** Domain Admin account (jane_admin) created and added to Domain Admins group.
 
--<img src="https://imgur.com/a/pToFTqF" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-- **Screenshot 4:** Client-1 VM joined to the domain, visible in ADUC.  
+<img width="1920" height="1080" alt="screenshot4" src="https://github.com/user-attachments/assets/f68be9c6-1513-4aea-8839-26d7248c9e38" />
+- **Screenshot 4:** Client-1 VM joined to the domain, visible in ADUC.
+  
 - **Screenshot 5:** PowerShell script creating multiple user accounts and results in ADUC.  
 
-*(Optional: more screenshots showing Remote Desktop setup, account lockout testing, and enabling/disabling accounts.)*
 
 ## Demonstration
 1. Deployed two Azure VMs: **DC-1** (Domain Controller) and **Client-1** (Windows 10 client).  
