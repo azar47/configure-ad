@@ -16,7 +16,7 @@ The purpose of this project is to illustrate practical AD administration skills 
 <img src="https://i.imgur.com/dP825Zj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 - **Screenshot 1:** DC-1 VM dashboard in Azure showing the Windows Server 2022 instance.
 
-- <img src="blob:https://imgur.com/10c9a67b-0e39-48bf-a87c-fa79bfc10ffb" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+- <img src="https://imgur.com/a/fWtwRCW" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 - **Screenshot 2:** Active Directory Users and Computers (ADUC) showing Organizational Units (_EMPLOYEES, _ADMINS, _CLIENTS).  
 - **Screenshot 3:** Domain Admin account (jane_admin) created and added to Domain Admins group.  
 - **Screenshot 4:** Client-1 VM joined to the domain, visible in ADUC.  
