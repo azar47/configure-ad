@@ -1,7 +1,7 @@
-# On-Premises Active Directory Deployment in Azure
+# Active Directory Deployment in Azure
 
 ## Project Summary
-This project demonstrates the deployment and configuration of an **on-premises Active Directory (AD)** environment within **Microsoft Azure Virtual Machines**.  
+This project demonstrates the deployment and configuration of an **Active Directory** environment within **Microsoft Azure Virtual Machines**.  
 The project shows how to set up a Domain Controller (DC), join a client VM to the domain, manage users and Organizational Units (OUs), and configure administrative and non-administrative accounts.
 
 **Environments and Technologies Used:**
