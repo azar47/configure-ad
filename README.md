@@ -37,7 +37,7 @@ Screenshot 4: Client-1 VM joined to the domain, visible in ADUC.
 Screenshot 5: PowerShell script creating multiple user accounts and results in ADUC.  
 
 
-## Demonstration
+## Steps performed
 1. Deployed two Azure VMs: **DC-2** (Domain Controller) and **Client-1** (Windows 10 client).  
 2. Installed Active Directory Domain Services on DC-2 and created a new forest ('mydomain.com').  
 3. Created OUs and administrative accounts in ADUC, including 'jane_admin' as a Domain Admin.  
